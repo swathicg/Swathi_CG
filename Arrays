@@ -1,0 +1,20 @@
+/*Finding maximum,minimum and sum of the array.java*/
+public class Array
+{
+   public static void main(String args[])
+   {
+       int sum=0;
+       int n[]={11,29,33,46,54};
+       int i=Math.min(n[0],(Math.min(n[1],(Math.min(n[2],(Math.min(n[3],n[4])))))));
+       System.out.println("THE MINIMUM VALUE IS :"+i);
+       
+       int j=Math.max(n[0],(Math.max(n[1],(Math.max(n[2],(Math.max(n[3],n[4])))))));
+       System.out.println("THE MAXIMUM VALUE IS :"+j);
+       
+       for(int m=0;m<n.length; m++)
+       {
+            sum=sum+n[m];
+        }
+        System.out.println(sum);
+    }
+}
